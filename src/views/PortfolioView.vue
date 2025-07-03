@@ -7,7 +7,7 @@ export default {
         {
           id: 1,
           name: 'Personal Website',
-          imageUrl: 'portfolio_v2',
+          imageUrl: 'portfolio-portfolio_v2.png',
           status: 'Trang web cá nhân giới thiệu về bản thân, kỹ năng và dự án của tôi. Nó bao gồm các phần như giới thiệu, kỹ năng, dự án và liên hệ.',
           tech: 'VueJS 3, Tailwind',
           github: 'https://github.com/rakha-elctrnx/Portofolio-v2',
@@ -16,7 +16,7 @@ export default {
         {
           id: 2,
           name: 'WebShoeShoe',
-          imageUrl: 'sahabatmuslim',
+          imageUrl: 'image1.png',
           status: 'Website cho phép người dùng tìm kiếm và mua giày dép trực tuyến. Người dùng có thể tìm kiếm, lọc và xem chi tiết sản phẩm.',
           tech: 'ReactJS, Tailwind CSS, ExpressJS, MongoDB',
           github: 'https://github.com/caoahn/FEBE',
@@ -25,7 +25,7 @@ export default {
         {
           id: 3,
           name: 'WebShoeShoe Admin',
-          imageUrl: 'sistekdes',
+          imageUrl: 'image.png',
           status: 'WebShoeShoe Admin là một ứng dụng quản lý sản phẩm giày dép trực tuyến. Nó cho phép quản trị viên quản lý sản phẩm, đơn hàng và người dùng.',
           tech: 'ReactJS, Tailwind CSS, ExpressJS, MongoDB',
           github: 'https://github.com/caoahn/FEBE',
@@ -34,7 +34,7 @@ export default {
         {
           id: 4,
           name: 'HomePage',
-          imageUrl: 'bumdesma',
+          imageUrl: 'portfolio-bumdesma.png',
           status: 'Trang web giới thiệu cho một tổ chức, cung cấp thông tin về các dịch vụ và hoạt động của tổ chức đó.',
           tech: 'ReactJS, Tailwind CSS, .NET 8',
           github: 'null',
@@ -43,7 +43,7 @@ export default {
         {
           id: 5,
           name: 'CMS Home Page',
-          imageUrl: 'sp2se',
+          imageUrl: 'portfolio-sp2se.png',
           status: 'Trang web quản lí thông tin giới thiệu cho một tổ chức, cung cấp thông tin về các dịch vụ và hoạt động của tổ chức đó.',
           tech: 'ReactJS, Tailwind CSS, .NET 8',
           github: 'null',
@@ -74,7 +74,7 @@ export default {
                 class="item-card flex flex-col items-center gap-2 bg-[#1e1e1f] hover:bg-[#282828] border border-[#383838] rounded-xl text-amber-50 md:gap-3 px-5 py-5 lg:px-5 ">
                 <div class="flex items-center justify-center p-0 h-full w-full lg:p-0 zoom-in">
                   <img alt="HTML" loading="lazy" decoding="async" data-nimg="1" class="drop-shadow-xl rounded-xl"
-                    :src="'/img/portfolio-' + item.imageUrl + '.png'">
+                    :src="'/img/' + item.imageUrl">
                 </div>
                 <div class="w-full flex flex-col gap-2 items-center text-sm md:text-base lg:text-lg">
                   <div class="title-text font-medium text-secondary">{{ item.name }}
