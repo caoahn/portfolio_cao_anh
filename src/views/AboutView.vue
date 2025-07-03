@@ -8,74 +8,98 @@ export default {
           id: 1,
           name: 'HTML',
           imageUrl: 'https://cdn-icons-png.flaticon.com/512/1051/1051277.png',
-          status: 'Advanced'
+          status: 'Junior'
         },
         {
           id: 2,
           name: 'CSS',
           imageUrl: 'https://cdn-icons-png.flaticon.com/512/732/732190.png',
-          status: 'Advanced'
+          status: 'Junior'
         },
         {
           id: 3,
-          name: 'PHP',
-          imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-php-2038871-1720084.png',
-          status: 'Advanced'
+          name: 'Javascript',
+          imageUrl: 'https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png',
+          status: 'Junior'
         },
         {
           id: 4,
-          name: 'Javascript',
-          imageUrl: 'https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png',
-          status: 'Advance'
+          name: 'Typescript',
+          imageUrl: 'https://img.icons8.com/?size=100&id=uJM6fQYqDaZK&format=png&color=000000',
+          status: 'Junior'
         },
         {
           id: 5,
-          name: 'Laravel',
-          imageUrl: 'https://cdn.worldvectorlogo.com/logos/laravel-2.svg',
-          status: 'Advance'
+          name: 'C#',
+          imageUrl: 'https://img.icons8.com/?size=100&id=45490&format=png&color=000000',
+          status: 'Junior'
         },
         {
           id: 6,
-          name: 'Codeigniter',
-          imageUrl: 'https://cdn-peanutsquare.b-cdn.net/wp-content/uploads/2022/11/codeigniter-logo.png',
-          status: 'Intermediate'
+          name: 'ReactJS',
+          imageUrl: 'https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png',
+          status: 'Junior'
         },
         {
           id: 7,
-          name: 'VueJS',
-          imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-vue-282497.png?f=webp',
-          status: 'Intermediate'
+          name: 'NodeJS',
+          imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-node-js-1174925.png',
+          status: 'Junior'
         },
         {
           id: 8,
-          name: 'AlpineJS',
-          imageUrl: 'https://avatars.githubusercontent.com/u/59030169?s=200&v=4',
-          status: 'Beginner'
+          name: '.NET',
+          imageUrl: 'https://img.icons8.com/?size=100&id=1BC75jFEBED6&format=png&color=000000',
+          status: 'Junior'
         },
-        {
+          {
           id: 9,
-          name: 'NodeJS',
-          imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-node-js-1174925.png',
-          status: 'Beginner'
+          name: 'Unity',
+          imageUrl: 'https://img.icons8.com/?size=100&id=xPl4HeknrW07&format=png&color=000000',
+          status: 'Fresher'
         },
         {
           id: 10,
-          name: 'Tailwind',
-          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg',
-          status: 'Advance'
+          name: 'ExpressJS',
+          imageUrl: 'https://img.icons8.com/?size=100&id=z228V7A9QyTv&format=png&color=000000',
+          status: 'Junior'
         },
         {
           id: 11,
-          name: 'Bootstrap',
-          imageUrl: 'https://getbootstrap.com/docs/5.2/assets/brand/bootstrap-logo-shadow.png',
-          status: 'Intermediate'
+          name: 'Tailwind',
+          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg',
+          status: 'Junior'
         },
         {
           id: 12,
-          name: 'ReactJS',
-          imageUrl: 'https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png',
-          status: 'Beginner'
-        }
+          name: 'Bootstrap',
+          imageUrl: 'https://getbootstrap.com/docs/5.2/assets/brand/bootstrap-logo-shadow.png',
+          status: 'Junior'
+        },
+        {
+          id: 13,
+          name: 'Python',
+          imageUrl: 'https://img.icons8.com/?size=100&id=13441&format=png&color=000000',
+          status: 'Fresher'
+        },
+        {
+          id: 14,
+          name: 'Java',
+          imageUrl: 'https://img.icons8.com/?size=100&id=13679&format=png&color=000000',
+          status: 'Fresher'
+        },
+        {
+          id: 15,
+          name: 'Flutter',
+          imageUrl: 'https://img.icons8.com/?size=100&id=7I3BjCqe9rjG&format=png&color=000000',
+          status: 'Fresher'
+        },
+        {
+          id: 16,
+          name: 'Dart',
+          imageUrl: 'https://img.icons8.com/?size=100&id=7AFcZ2zirX6Y&format=png&color=000000',
+          status: 'Fresher'
+        },
       ],
       tools: [
         {
@@ -91,6 +115,12 @@ export default {
           status: 'Git Hosting'
         },
         {
+          id: 2,
+          name: 'Gitlab',
+          imageUrl: 'https://img.icons8.com/?size=100&id=34886&format=png&color=000000',
+          status: 'Git Hosting'
+        },
+        {
           id: 3,
           name: 'NPM',
           imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-npm-3-1175132.png',
@@ -102,6 +132,24 @@ export default {
           imageUrl: 'https://cdn-icons-png.flaticon.com/512/5968/5968313.png',
           status: 'Database'
         },
+        {
+          id: 5,
+          name: 'SQL Server',
+          imageUrl: 'https://img.icons8.com/?size=100&id=laYYF3dV0Iew&format=png&color=000000',
+          status: 'Database'
+        },
+        {
+          id: 5,
+          name: 'MongoDB',
+          imageUrl: 'https://img.icons8.com/?size=100&id=bosfpvRzNOG8&format=png&color=000000',
+          status: 'Database'
+        },
+        {
+          id: 5,
+          name: 'Docker',
+          imageUrl: 'https://img.icons8.com/?size=100&id=cdYUlRaag9G9&format=png&color=000000',
+          status: 'Containerization'
+        },
       ]
     };
   }
@@ -111,7 +159,6 @@ export default {
   <div
     class="bg-[#1e1e1f] px-5 py-5 md:px-12 md:py-10 text-left border border-[#383838] rounded-3xl text-amber-50 mx-3 mb-5">
     <article data-page="about">
-
       <header>
         <div class="text-2xl font-bold text-white mb-5 fadein-bot title-section flex items-center">
           About Me &nbsp;
@@ -128,7 +175,7 @@ export default {
         </div>
         <div class="md:w-7/12">
           <p class="mb-3 md:mb-7 fadein-left fadeins-1">
-            &nbsp; &nbsp; &nbsp; Hi everyone! My name is Bagas Rakha Putra. I'm a web developer from Bogor, West Java. I
+            &nbsp; &nbsp; &nbsp; Hi everyone! My name is Cao Tuan Anh. I'm a web developer from Ha Noi. I
             have 1 year of experience in back-end web development.
             I really enjoy what I do right now, in my opinion, creating programs is not just a job, but also an art that
             has
